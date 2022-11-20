@@ -40,7 +40,7 @@ describe("Todo List Test Suite", () => {
     });
 
     expect(n.length).toEqual(4);
-  });
+  });//initiate to datastrings
 
   test("Should mark a todo as complete", () => {
     expect(n[0].completed).toEqual(false);
@@ -58,5 +58,5 @@ describe("Todo List Test Suite", () => {
 
   test("Should retrieve due later items", () => {
     expect(dueLater().length).toEqual(1);
-  });
+  });// lenght of test 
 });
